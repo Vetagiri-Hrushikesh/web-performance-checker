@@ -25,6 +25,22 @@ share/python-wheels/
 .installed.cfg
 *.egg
 
+
+# Virtual environment:
+bin/
+lib/
+lib64/
+include/
+share/
+*.pyc
+
+# Python virtual environment files not generally to be committed
+pyvenv.cfg
+
+# Redis dump file
+dump.rdb
+
+
 # PyInstaller
 # Usually these files are written by a python script from a template
 # before PyInstaller builds the executable, when you run PyInstaller.
